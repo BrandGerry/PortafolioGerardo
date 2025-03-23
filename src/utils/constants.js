@@ -1,6 +1,15 @@
 const projects = [
   {
     id: 1,
+    title: "Calendar App",
+    description: "Calendario y tareas",
+    technologies: "Javascript, HTML5, CSS3, React.js, Mongo DB",
+    src: "/images/projectsImages/CalendarApp.png",
+    demo: "https://backend-calendar-production-bff.up.railway.app/",
+    code: "https://github.com/BrandGerry/calendar",
+  },
+  {
+    id: 2,
     title: "Crud App",
     description: "Eliminar,Crear,Actualizar Tareas",
     technologies: "Javascript, HTML5, CSS3, React.js",
@@ -9,7 +18,7 @@ const projects = [
     code: "https://github.com/BrandGerry/Todolist",
   },
   {
-    id: 2,
+    id: 3,
     title: "Pokedex",
     description: "Pokedex con todos sus filtros para buscar a tu pokemon.",
     technologies: "Javascript, React, Tailwind CSS",
@@ -18,7 +27,7 @@ const projects = [
     code: "https://github.com/BrandGerry/Pokedexmain",
   },
   {
-    id: 3,
+    id: 4,
     title: "Ecoomerce Funko",
     description: "Tienda modelo para vender FunkoPops",
     technologies: "Javascript, React, Tailwind CSS",
@@ -27,7 +36,7 @@ const projects = [
     code: "https://github.com/BrandGerry/Ecomercefko",
   },
   {
-    id: 4,
+    id: 5,
     title: "Agenda",
     description: "Agenda creada con React.js",
     technologies: "Javascript, React, Tailwind CSS",
@@ -36,7 +45,7 @@ const projects = [
     code: "https://github.com/BrandGerry/AppUsers",
   },
   {
-    id: 5,
+    id: 6,
     title: "App del clima",
     description:
       "App del clima, brinda información meteologica dada la ciudad.",
@@ -44,15 +53,6 @@ const projects = [
     src: "/images/projectsImages/ClimaApp.png",
     demo: "https://clever-engelbart-eaa598.netlify.app/",
     code: "https://github.com/BrandGerry/Climapp",
-  },
-  {
-    id: 6,
-    title: "Rick y Morty",
-    description: "Busqueda de rick y morty",
-    technologies: "Javascript, HTML5, Tailwind CSS, React",
-    src: "/images/projectsImages/RickYMortyApp.png",
-    demo: "https://compassionate-austin-ccc623.netlify.app/",
-    code: "https://github.com/BrandGerry/RickMortySearch",
   },
 ];
 
